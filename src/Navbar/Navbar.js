@@ -127,7 +127,7 @@ function Navbar ()
 
                 <div className='d-lg-none d-block'>
                   <div className='d-flex flex-column'>
-                    <button className='btn text-white mb-3 ts'>Login</button>
+                    <button className='btn text-white mb-3 ts shadow-none'>Login</button>
                     <button className='btn nav-btn'>Register</button>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ function Navbar ()
             </div>
             <div className={!nav ? 'nav-ul-div-1 my-auto' : 'nav-ul-div-hide-1 my-auto'}>
               <ul className='nav-ul d-flex flex-lg-row flex-column justify-content-around m-0 p-0 align-items-center'>
-                <button className='btn me-2'>Login</button>
+                <button className='btn me-2 shadow-none'>Login</button>
                 <button className='btn nav-btn'>Register</button>
               </ul>
             </div>
