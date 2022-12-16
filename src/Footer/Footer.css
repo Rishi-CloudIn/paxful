@@ -1,0 +1,12 @@
+.footer-ul li a {
+  color: #646464 !important;
+  font-size: small;
+}
+
+.footer-ul li a:hover {
+  color: #0384f4 !important;
+}
+
+.footer-ul li  {
+ margin-bottom: 15px;
+}

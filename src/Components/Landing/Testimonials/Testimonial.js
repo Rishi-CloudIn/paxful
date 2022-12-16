@@ -37,7 +37,7 @@ function Testimonial ()
             <div className='testi-card-div'>
               <Swiper
                 spaceBetween={2}
-                slidesPerView={2}
+                slidesPerView={1}
                 autoplay={{
                   delay: 10000,
                   pauseOnMouseEnter: true,
@@ -48,52 +48,76 @@ function Testimonial ()
                 modules={[ Autoplay, Navigation ]}
                 onSlideChange={() => console.log( 'slide change' )}
                 onSwiper={( swiper ) => console.log( swiper )}
-                className='d-flex flex-row align-items-center justify-content-center px-5'>
+                className='d-flex flex-lg-row flex-column align-items-center justify-content-center px-5'>
 
 
-                <SwiperSlide className='px-5'>
-                  <div className='card testi-card position-relative  p-2 my-5'>
-                    <div className='card-body'>
-                      <div className='testi-card-img position-absolute top-0 translate-middle'>
-                        <img src={mainebitcoin} alt="img" width={50} />
+                <SwiperSlide className='ps-5 row'>
+                  <div className='px-5 col-lg-6 col-12 h-100'>
+                    <div className='card testi-card position-relative w-100 h-100  p-2 my-5'>
+                      <div className='card-body'>
+                        <div className='testi-card-img position-absolute top-0 translate-middle'>
+                          <img src={mainebitcoin} alt="img" width={50} />
+                        </div>
+                        <div className='pt-4 pb-2 px-lg-2 px-0'>
+                          <h5 className='tl text-voilet fw-bold'>MaineBitcoin</h5>
+                          <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
+                            {readmore && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore( !readmore ); }} className='ts text-voilet cursor-pointer'>{linkName}</span>
+                          </p>
+                        </div>
                       </div>
-                      <div className='pt-4 pb-2 px-2'>
-                        <h5 className='tl text-voilet fw-bold'>MaineBitcoin</h5>
-                        <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
-                          {readmore && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore( !readmore ); }} className='ts text-voilet cursor-pointer'>{linkName}</span>
-                        </p>
+                    </div>
+                  </div>
+
+                  <div className='px-5 col-lg-6 col-12 h-100'>
+                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
+                      <div className='card-body'>
+                        <div className='testi-card-img position-absolute top-0 translate-middle'>
+                          <img src={kareninsf} alt="img" width={50} />
+                        </div>
+                        <div className='pt-4 pb-2 px-lg-2 px-0'>
+                          <h5 className='tl text-voilet fw-bold'>Kareninsf</h5>
+                          <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
+                            {readmore1 && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore1( !readmore1 ); }} className='ts text-voilet cursor-pointer'>{linkName1}</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
 
-                <SwiperSlide className='px-5'>
-                  <div className='card testi-card position-relative  p-2 my-5'>
-                    <div className='card-body'>
-                      <div className='testi-card-img position-absolute top-0 translate-middle'>
-                        <img src={kareninsf} alt="img" width={50} />
-                      </div>
-                      <div className='pt-4 pb-2 px-2'>
-                        <h5 className='tl text-voilet fw-bold'>Kareninsf</h5>
-                        <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
-                          {readmore1 && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore1( !readmore1 ); }} className='ts text-voilet cursor-pointer'>{linkName1}</span>
-                        </p>
+                {/* <SwiperSlide className='px-5 '>
+
+                </SwiperSlide> */}
+
+                <SwiperSlide className='ps-5 row '>
+                  <div className='px-5 col-lg-6 col-12 h-100'>
+                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
+                      <div className='card-body'>
+                        <div className='testi-card-img position-absolute top-0 translate-middle'>
+                          <img src={eximius} alt="img" width={50} />
+                        </div>
+                        <div className='pt-4 pb-2 px-lg-2 px-0'>
+                          <h5 className='tl text-voilet fw-bold'>Eximius</h5>
+                          <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
+                            {readmore2 && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore2( !readmore2 ); }} className='ts text-voilet cursor-pointer'>{linkName2}</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
 
-                <SwiperSlide className='px-5'>
-                  <div className='card testi-card position-relative  p-2 my-5'>
-                    <div className='card-body'>
-                      <div className='testi-card-img position-absolute top-0 translate-middle'>
-                        <img src={eximius} alt="img" width={50} />
-                      </div>
-                      <div className='pt-4 pb-2 px-2'>
-                        <h5 className='tl text-voilet fw-bold'>Eximius</h5>
-                        <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
-                          {readmore2 && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore2( !readmore2 ); }} className='ts text-voilet cursor-pointer'>{linkName2}</span>
-                        </p>
+                  <div className='px-5 col-lg-6 col-12 h-100'>
+                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
+                      <div className='card-body'>
+                        <div className='testi-card-img position-absolute top-0 translate-middle'>
+                          <img src={kareninsf} alt="img" width={50} />
+                        </div>
+                        <div className='pt-4 pb-2 px-lg-2 px-0'>
+                          <h5 className='tl text-voilet fw-bold'>Kareninsf</h5>
+                          <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
+                            {readmore1 && 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?'}<span onClick={() => { setReadMore1( !readmore1 ); }} className='ts text-voilet cursor-pointer'>{linkName1}</span>
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
