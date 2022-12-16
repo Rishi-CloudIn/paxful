@@ -11,6 +11,8 @@
   --gray-color: #f7f7f7;
   --dark-gray: #aeaeae;
   --dark-gray-2: #868686;
+  --light-voilet: #F9F7FB;
+  --voilet-color :#46127B; 
 
 }
 
@@ -31,6 +33,10 @@
 
 /* customize */
 
+.text-voilet{
+  color: var(--voilet-color);
+}
+
 .ts {
   font-size: small !important;
 }
@@ -49,6 +55,10 @@
 
 .fw-300{
   font-weight: 300;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 /* component */
@@ -94,4 +104,8 @@
   font-size: smaller;
   font-weight: 400;
   color: var(--dark-gray-2);
+}
+
+.text-voilet{
+  color: var(--voilet-color);
 }

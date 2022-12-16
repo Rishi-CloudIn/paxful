@@ -41,3 +41,110 @@
   padding: 0px 9px 4px 12px ;
   border-radius: 50%;
 }
+
+
+@media screen and (max-width: 576px) {
+  
+.way-youtube-img{
+  width: 300px;
+  height: 180px;
+  margin: 0px auto;
+  position: relative;
+  max-width: 300px;
+  background: url('../../../Images/Landing/way/way-youtube.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 4px;
+}
+}
+
+/* client logo */
+
+.client-logo-div {
+  width:150px;
+  height: 80px;
+  max-width: 200px;
+}
+
+.client-logo-div img {
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  height: 20px !important;
+  width: 10px !important;
+  color: var(--black-color) !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  font-size: large !important;
+  font-weight: 600 !important;
+  margin-top: 20px !important;
+}
+
+@media screen and (max-width: 992px) {
+  
+.client-logo-div {
+  width:100px;
+  height: 60px;
+  max-width: 100px;
+}
+  .client-logo-div img {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+}
+}
+
+@media screen and (max-width: 768px) {
+.client-logo-div {
+  width:70px;
+  height: 50px;
+  max-width: 70px;
+}
+  .client-logo-div img {
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+}
+}
+
+@media screen and (max-width: 500px) {
+.client-logo-div {
+  width:40px;
+  height: 20px;
+  max-width: 40px;
+}
+  .client-logo-div img {
+  width: 40px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  height: 10px !important;
+  width: 10px !important;
+  color: var(--black-color) !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  font-size: medium !important;
+  font-weight: 600 !important;
+  margin-top: 40px !important;
+}
+
+}
+
+
+
+
+/* experiance cards */
+
+
+.experiance-card {
+  background-color: var(--light-voilet) !important;
+  border: none !important;
+}
+
