@@ -87,10 +87,10 @@ function GetStart ()
         </div>
 
         <div className='getstart-contetnt-div py-5'>
-          <h1 className='fw-bold title text-center'>Your Bitcoin. Your experience.</h1>
-          <p className='para text-center w-75 mx-auto my-3'>Buy and sell with people around the world just like you using your own prices and payment methods.</p>
+          <h1 className='fw-bold title text-center'>Ready to get started?</h1>
+          <p className='para text-center w-75 mx-auto my-3'>Explore thousands of offers to buy and sell Bitcoin to kickstart your trading journey.</p>
           <div className='w-100 d-flex justify-content-center mt-4'>
-            <button className='btn btn-blue py-2'>Start Trading</button>
+            <button className='btn btn-blue py-2'>Create Your Account</button>
           </div>
         </div>
       </section>

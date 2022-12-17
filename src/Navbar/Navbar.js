@@ -6,6 +6,8 @@ import bitcoin from '../Images/Navbar/bitcoin.svg';
 import ethereum from '../Images/Navbar/ethereum.svg';
 import tether from '../Images/Navbar/tether.svg';
 import usd from '../Images/Navbar/usd-coin.svg';
+import logo from '../Images/Landing/way/coingeek.webp';
+
 
 function Navbar ()
 {
@@ -36,7 +38,7 @@ function Navbar ()
         <div className='container-fluid navbar-container px-0'>
           <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div-1 d-flex flex-row justify-content-between py-3 '}>
             <div className='navbar-logo' >
-              <img src='' alt="img" />
+              <img src={logo} alt="img" />
             </div>
 
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>

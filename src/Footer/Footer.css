@@ -10,3 +10,25 @@
 .footer-ul li  {
  margin-bottom: 15px;
 }
+
+.social-p {
+  font-size: 9px;
+  color: white;
+}
+
+.social-h6 {
+  font-size: 13px;
+}
+
+.social-icon {
+  border: 1px solid var(--dark-gray);
+}
+
+.social-icon:hover {
+  border: 1px solid var(--dark-gray);
+  background-color: var(--gray-color);
+}
+
+.footer-description{
+  font-size: 12px;
+}

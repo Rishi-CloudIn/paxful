@@ -4,6 +4,9 @@ import { AiFillQuestionCircle } from 'react-icons/ai';
 import coingeek from '../Images/Landing/way/coingeek.webp';
 import useWindowDimensions from './useWindowDimention';
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from 'react-icons/md';
+import playStore from '../Images/Footer/play-store.png';
+import { BsApple, BsInstagram, BsFacebook, BsTwitter, BsYoutube, BsReddit } from 'react-icons/bs';
+
 function Footer ()
 {
   const { width } = useWindowDimensions();
@@ -15,15 +18,10 @@ function Footer ()
   const [ open4, setOpen4 ] = useState( false );
   const [ open5, setOpen5 ] = useState( false );
 
-
-
-
-
-
-
   return (
     <>
-      <section className='footer-container container-fluid'>
+      <hr />
+      <section className='footer-container container-fluid mt-4'>
         <div className='footer-content-div px-3'>
           <div className='footer-div-1'>
             <div className='d-flex align-items-center'>
@@ -173,7 +171,57 @@ function Footer ()
             </div>
           </div>
 
-          
+          <div className='social-icon-div d-flex flex-md-row flex-column align-items-center justify-content-between'>
+            <div className='social-div-1 d-flex flex-sm-row flex-column align-items-center'>
+              <div className='mx-md-0 mx-2' >
+                <button className='btn social-btn d-flex align-items-center bg-dark py-1 px-2'>
+                  <div className='me-3 '>
+                    <i className='fs-5 text-light'><BsApple /></i>
+                  </div>
+                  <div>
+                    <p className='social-p mb-0'>Download on the</p>
+                    <h6 className='social-h6 mb-0 text-light'>App Store</h6>
+                  </div>
+                </button>
+              </div>
+              <div className='me-md-2 mx-2'>
+                <img src={playStore} alt='img' width={150} />
+              </div>
+
+            </div>
+
+            <div className='social-div-1 d-flex align-items-center mt-md-0 mt-4'>
+              <div className='me-md-3 mx-2'>
+                <a className='a-remove' href='void:'>
+                  <i className='text-secondary px-2 py-1 rounded-3 fs-5 social-icon'><BsInstagram /></i>
+                </a>
+              </div>
+              <div className='me-md-3 mx-2'>
+                <a className='a-remove' href='void:'>
+                  <i className='text-secondary px-2 py-1 rounded-3 fs-5 social-icon'><BsFacebook /></i>
+                </a>
+              </div>
+              <div className='me-md-3 mx-2'>
+                <a className='a-remove' href='void:'>
+                  <i className='text-secondary px-2 py-1 rounded-3 fs-5 social-icon'><BsTwitter /></i>
+                </a>
+              </div>
+              <div className='me-md-3 mx-2'>
+                <a className='a-remove' href='void:'>
+                  <i className='text-secondary px-2 py-1 rounded-3 fs-5 social-icon'><BsYoutube /></i>
+                </a>
+              </div>
+              <div className='me-md-3 mx-2'>
+                <a className='a-remove' href='void:'>
+                  <i className='text-secondary px-2 py-1 rounded-3 fs-5 social-icon'><BsReddit /></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className='footer-description text-secondary lh-sm my-4'>
+            “PAXFUL” is a registered trademark of Paxful, Inc. Copyright © 2022 Paxful, Inc. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, PayPal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808
+          </div>
         </div>
       </section>
     </>
