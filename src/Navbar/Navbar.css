@@ -16,14 +16,14 @@
 .navbar-logo {
   width: auto;
   height: auto;
-  max-width: 130px;
-  max-height: 25px;
+  max-width: 150px;
+  max-height: 30px;
  
 }
 
 .navbar-logo img {
   width: 100%;
-  height: 25px;
+  height: 30px;
   margin-top: 7px;
 }
 .bar1,

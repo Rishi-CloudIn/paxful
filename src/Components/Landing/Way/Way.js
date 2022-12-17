@@ -234,8 +234,6 @@ function Way ()
               loop
               navigation={true}
               modules={[ Autoplay, Navigation ]}
-              onSlideChange={() => console.log( 'slide change' )}
-              onSwiper={( swiper ) => console.log( swiper )}
               className='d-flex flex-row align-items-center justify-content-center ps-md-5 ps-4'>
               <SwiperSlide>
                 <div className='client-logo-div'>

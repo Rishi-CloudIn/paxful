@@ -3,6 +3,7 @@ import './Testimonial.css';
 import mainebitcoin from '../../../Images/Landing/Testmonial/mainebitcoin.jpg';
 import kareninsf from '../../../Images/Landing/Testmonial/kareninsf.jpg';
 import eximius from '../../../Images/Landing/Testmonial/eximius.jpg';
+import useWindowDimention from '../../../Footer/useWindowDimention';
 
 
 
@@ -13,9 +14,11 @@ import 'swiper/css';
 import "swiper/css/navigation";
 SwiperCore.use( [ Autoplay ] );
 
-
 function Testimonial ()
 {
+
+  const { width } = useWindowDimention();
+
   const [ readmore, setReadMore ] = useState();
   const [ readmore1, setReadMore1 ] = useState();
   const [ readmore2, setReadMore2 ] = useState();
@@ -37,7 +40,7 @@ function Testimonial ()
             <div className='testi-card-div'>
               <Swiper
                 spaceBetween={2}
-                slidesPerView={1}
+                slidesPerView={width < 992 ? 1 : 2}
                 autoplay={{
                   delay: 10000,
                   pauseOnMouseEnter: true,
@@ -46,14 +49,12 @@ function Testimonial ()
                 loop
                 navigation={true}
                 modules={[ Autoplay, Navigation ]}
-                onSlideChange={() => console.log( 'slide change' )}
-                onSwiper={( swiper ) => console.log( swiper )}
                 className='d-flex flex-lg-row flex-column align-items-center justify-content-center px-5'>
 
 
-                <SwiperSlide className='ps-5 row'>
-                  <div className='px-5 col-lg-6 col-12 h-100'>
-                    <div className='card testi-card position-relative w-100 h-100  p-2 my-5'>
+                <SwiperSlide>
+                  <div className='px-md-5 px-3 col-lg-6 col-12 w-100 h-100 d-flex'>
+                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5 '>
                       <div className='card-body'>
                         <div className='testi-card-img position-absolute top-0 translate-middle'>
                           <img src={mainebitcoin} alt="img" width={50} />
@@ -67,9 +68,11 @@ function Testimonial ()
                       </div>
                     </div>
                   </div>
+                </SwiperSlide>
 
-                  <div className='px-5 col-lg-6 col-12 h-100'>
-                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
+                <SwiperSlide  >
+                  <div className='px-md-5 px-3 col-lg-6 col-12 w-100 h-100'>
+                    <div className='card testi-card position-relative w-100 h-100 p-2 my-5 '>
                       <div className='card-body'>
                         <div className='testi-card-img position-absolute top-0 translate-middle'>
                           <img src={kareninsf} alt="img" width={50} />
@@ -85,12 +88,8 @@ function Testimonial ()
                   </div>
                 </SwiperSlide>
 
-                {/* <SwiperSlide className='px-5 '>
-
-                </SwiperSlide> */}
-
-                <SwiperSlide className='ps-5 row '>
-                  <div className='px-5 col-lg-6 col-12 h-100'>
+                <SwiperSlide >
+                  <div className='px-md-5 px-3 px-2 col-lg-6 col-12 w-100 h-100'>
                     <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
                       <div className='card-body'>
                         <div className='testi-card-img position-absolute top-0 translate-middle'>
@@ -105,8 +104,10 @@ function Testimonial ()
                       </div>
                     </div>
                   </div>
+                </SwiperSlide>
 
-                  <div className='px-5 col-lg-6 col-12 h-100'>
+                <SwiperSlide >
+                  <div className='px-md-5  px-3 px-2 col-lg-6 col-12 w-100 h-100'>
                     <div className='card testi-card position-relative w-100 h-100 p-2 my-5'>
                       <div className='card-body'>
                         <div className='testi-card-img position-absolute top-0 translate-middle'>
@@ -122,7 +123,6 @@ function Testimonial ()
                     </div>
                   </div>
                 </SwiperSlide>
-
               </Swiper>
 
             </div>

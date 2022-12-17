@@ -1,0 +1,40 @@
+.login-inner-card {
+  background-color: #F4FAFD !important;
+}
+
+.form-input-div{
+  border: 1px solid var(--dark-gray);
+  border-radius: 5px;
+
+}
+
+
+.form-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.login-line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--gray-color);
+  margin: 20px auto;
+}
+
+.login-img-div{
+  width: 550px;
+  max-width:550;
+  height: 560px;
+  object-fit: contain;
+
+}
+
+.login-bg{
+  background-color: #F4FAFD;
+}
+
+.login-img-div img{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}

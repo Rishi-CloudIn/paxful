@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import './Navbar.css';
 import { MdArrowForwardIos } from 'react-icons/md';
-import bitcoin from '../Images/Navbar/bitcoin.svg';
-import ethereum from '../Images/Navbar/ethereum.svg';
-import tether from '../Images/Navbar/tether.svg';
-import usd from '../Images/Navbar/usd-coin.svg';
-import logo from '../Images/TechSwap-png.png';
+import bitcoin from '../../../Images/Navbar/bitcoin.svg';
+import ethereum from '../../../Images/Navbar/ethereum.svg';
+import tether from '../../../Images/Navbar/tether.svg';
+import usd from '../../../Images/Navbar/usd-coin.svg';
+import logo from '../../../Images/Landing/way/coingeek.webp';
 
 
-function Navbar ()
+function WalletNavbar ()
 {
-
   const navigate = useNavigate();
-
   const [ nav, setNav ] = useState( true );
   const [ color, setColor ] = useState( false );
 
@@ -39,14 +36,14 @@ function Navbar ()
       <nav className='nav'>
         <div className='container-fluid navbar-container px-0'>
           <div className={color ? 'navbar-content-div navbar-bg d-flex flex-row justify-content-between py-3 ' : 'navbar-content-div-1 d-flex flex-row justify-content-between py-3 '}>
-            <div className='navbar-logo' onClick={() => navigate( '/home' )}>
+            <div className='navbar-logo' onClick={() => navigate( '/home' )} >
               <img src={logo} alt="img" />
             </div>
 
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-lg-row flex-column justify-content-around m-0 p-0 align-items-center ms-lg-5 ms-0'>
                 <li className='nav-li mx-3'>
-                  <NavLink className='uc text-nowrap' to='/home ' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
+                  <NavLink className='uc text-nowrap' to='/home' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
                 </li>
                 <li className='nav-li mx-3'>
                   <NavLink className='uc' to='/wallet' onClick={() => setNav( !nav )}>Wallet</NavLink>
@@ -131,11 +128,7 @@ function Navbar ()
 
                 <div className='d-lg-none d-block'>
                   <div className='d-flex flex-column'>
-                    <button
-                      className='btn text-white mb-3 ts shadow-none'
-                      onClick={() => navigate( '/login' )}
-                    >Login
-                    </button>
+                    <button className='btn text-white mb-3 ts shadow-none'>Login</button>
                     <button className='btn nav-btn'>Register</button>
                   </div>
                 </div>
@@ -143,7 +136,7 @@ function Navbar ()
             </div>
             <div className={!nav ? 'nav-ul-div-1 my-auto' : 'nav-ul-div-hide-1 my-auto'}>
               <ul className='nav-ul d-flex flex-lg-row flex-column justify-content-around m-0 p-0 align-items-center'>
-                <button className='btn me-2 shadow-none' onClick={() => navigate( '/login' )}>Login</button>
+                <button className='btn me-2 shadow-none'>Login</button>
                 <button className='btn nav-btn'>Register</button>
               </ul>
             </div>
@@ -164,4 +157,4 @@ function Navbar ()
   );
 }
 
-export default Navbar;
+export default WalletNavbar;
