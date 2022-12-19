@@ -284,7 +284,7 @@ function WalletNavbar ()
                       </div>
                     </li>
                     <li className='nav-li mx-2'>
-                      <NavLink className='uc text-nowrap' onClick={() => setNav( !nav )}>Become a Vendor</NavLink >
+                      <NavLink className='uc text-nowrap' to='/vendors' onClick={() => setNav( !nav )}>Become a Vendor</NavLink >
                     </li>
 
                     <div className='d-xl-none d-block'>

@@ -126,7 +126,7 @@ function Navbar ()
                   </div>
                 </li>
                 <li className='nav-li mx-3'>
-                  <NavLink className='uc text-nowrap' onClick={() => setNav( !nav )}>Become a Vendor</NavLink >
+                  <NavLink className='uc text-nowrap' to='/vendors' onClick={() => setNav( !nav )}>Become a Vendor</NavLink >
                 </li>
 
                 <div className='d-lg-none d-block'>

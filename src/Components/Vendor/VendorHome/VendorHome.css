@@ -1,0 +1,64 @@
+.vendor-home-img{
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+}
+
+.vendor-home-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* profits */
+
+.vendor-profit-img{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.vendor-profit-img img {
+  width: 100%;
+  height: 100%;
+}
+
+li::marker{
+  color: var(--sky-blue);
+}
+
+/* trade */
+
+.trade-h1 {
+  width: 65%;
+}
+
+.vendor-trade-img-div{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.vendor-trade-img-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.trade-a:hover {
+  color: var(--voilet-color);
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 576px){
+  
+.vendor-trade-img-div{
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+}
+
+.vendor-trade-img-div img {
+  width: 100%;
+  height: 100%;
+}
+}
