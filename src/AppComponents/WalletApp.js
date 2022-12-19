@@ -1,4 +1,5 @@
 import React from 'react';
+import WalletHome from '../Components/Wallet/WalletHome.js/WalletHome';
 import WalletNavbar from '../Components/Wallet/WalletNavbar/WalletNavbar';
 
 
@@ -8,6 +9,7 @@ function WalletApp ()
     <>
       <div>
         <WalletNavbar />
+        <WalletHome />
       </div>
     </>
   );
