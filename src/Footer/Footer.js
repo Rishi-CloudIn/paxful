@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Footer.css';
 import { AiFillQuestionCircle } from 'react-icons/ai';
-import coingeek from '../Images/Landing/way/coingeek.webp';
+import logo from '../Images/TechSwap-png.png';
 import useWindowDimensions from './useWindowDimention';
 import { MdOutlineKeyboardArrowDown, MdOutlineKeyboardArrowUp } from 'react-icons/md';
 import playStore from '../Images/Footer/play-store.png';
@@ -26,7 +26,7 @@ function Footer ()
           <div className='footer-div-1'>
             <div className='d-flex align-items-center'>
               <div className='footer-logo me-3'>
-                <img src={coingeek} alt="img" width={100} />
+                <img src={logo} alt="img" width={100} />
               </div>
               <button className='btn btn-border d-flex justify-content-center align-items-center ts'><AiFillQuestionCircle className='fs-5 me-2' />FAQ & Help Center</button>
             </div>

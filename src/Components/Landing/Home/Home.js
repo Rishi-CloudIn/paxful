@@ -104,7 +104,7 @@ function Home ()
                         </div>
                         <div><i className=''>{drop ? <IoIosArrowUp /> : <IoIosArrowDown />}</i></div>
                       </button>
-                      <span className={!drop ? 'home-span ts d-flex align-items-center mt-1 ms-1' : 'd-none'}><span className='text-secondary'>1 BTC =</span> <span className='text-primary'>17,689.68 USD <i><FcLineChart /></i></span></span>
+                      <span className={!drop ? 'home-span ts d-flex align-items-center mt-1 ms-1' : 'd-none'}><span className='text-secondary'>1 BTC =&nbsp;</span> <span className='text-primary'>17,689.68 USD <i><FcLineChart /></i></span></span>
                       <div className={drop ? 'card card-div position-absolute w-100 mt-1 ' : 'd-none'}>
                         <div className='card-body p-1'>
                           <ul className='px-0'>
