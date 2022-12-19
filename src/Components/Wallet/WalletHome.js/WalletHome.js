@@ -55,14 +55,14 @@ function WalletHome ()
                   </div>
                 </div>
 
-                <button className='btn btn-blue py-3 ts'>Get your free bitcoin wallet</button>
+                <button className='btn btn-blue py-3 ts' id='test1'>Get your free bitcoin wallet</button>
 
-                <div className='mt-4'>
+                <div className='mt-4' >
                   <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500} delay={1000} className='a-remove ts cursor-pointer'><i className='fs-5 me-2'><BsArrowDown /></i>More Details</Link>
                 </div>
               </div>
             </div>
-            <div className='col-lg-6 col-12 d-flex align-items-center justify-content-center'>
+            <div className='col-lg-6 col-12 d-flex align-items-center justify-content-center' >
               <div className='wallet-home-img mt-lg-0 mt-4'>
                 <img src={wallethome} alt="img" />
               </div>
@@ -70,7 +70,7 @@ function WalletHome ()
           </div>
 
           {/* trust */}
-          <div className='py-5 my-5' id='test1'>
+          <div className='py-5 my-5' >
             <h1 className='h2 fw-bold text-center'>A Bitcoin wallet you can trust</h1>
             <p className='text-center tm text-secondary mt-5 px-md-0 px-3'>Over 3 million people have used the Paxful wallet to send and receive over 40,000 BTC. Its best-in-class security features make it one of the most trusted wallets in the world — so you’ll never have to choose between security and convenience.</p>
             <p className='text-center tm text-secondary px-md-2 px-4 mt-4'>The Paxful wallet is functional, safe, and easy to use on all your devices. You can easily manage your funds and top up directly via our peer-to-peer marketplace, and send or receive Bitcoin, in just a few clicks.</p>

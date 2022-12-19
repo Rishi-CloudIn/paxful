@@ -13,7 +13,7 @@
   --dark-gray-2: #868686;
   --light-voilet: #F9F7FB;
   --voilet-color :#46127B; 
-  --light-voilet: #9D85C1;
+  --light-voilet-2: #9D85C1;
 }
 
 
@@ -34,7 +34,7 @@
 /* customize */
 
 .text-light-voilet {
-  color: var(--light-voilet)
+  color: var(--light-voilet-2)
 }
 .text-skyblue{
   color: var(--sky-blue);
