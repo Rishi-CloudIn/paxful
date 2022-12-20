@@ -29,8 +29,8 @@ function OfferPage ()
 
 
               <div className='mt-4'>
-                <ul className='d-flex align-items-center px-0 mx-0'>
-                  <li className='offer-li active list-remove d-flex align-items-center me-2'>
+                <ul className='d-flex align-items-center flex-sm-row flex-column justify-content-start px-0 mx-0'>
+                  <li className='offer-li active list-remove d-flex  align-items-center me-2'>
                     <div className='li-circle active me-2'>
                       <div className='li-dot active'>
                       </div>
