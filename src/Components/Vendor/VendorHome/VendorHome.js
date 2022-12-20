@@ -128,11 +128,12 @@ function VendorHome ()
 
           {/* trade */}
 
-          <div>
+          <div> 
             <h1 className='h1 trade-h1 mx-auto fw-800 text-center'>Trade on Paxful and start your very own fintech business</h1>
             <p className='ts text-center mt-4'>Current Bitcoin price:
               USD 16,775.24</p>
 
+            {/* 1 */}
             <div className='row'>
               <div className='col-lg-4 col-sm-6 col-12'>
                 <div className='vendor-trade-img-div mx-sm-0 mx-auto my-sm-0 my-4'>
@@ -144,6 +145,48 @@ function VendorHome ()
                   <h4 className='h4 fw-bold text-voilet'>1. <a href='viod:' className='trade-a a-remove'>Create</a> or <a href='viod:' className='trade-a a-remove'>find</a> an offer</h4>
                   <p className='tm lh-base mt-3'>
                     You can browse or create offers for both buying and selling Bitcoin. Set your own rates, find a trade partner, and make your first transaction today.
+                  </p>
+                </div>
+              </div>
+              <div className='col-4 d-lg-block d-none'>
+                &nbsp;
+              </div>
+            </div>
+
+            {/* 2 */}
+
+            <div className='row'>
+              <div className='col-4 d-lg-block d-none order-1'>
+                &nbsp;
+              </div>
+              <div className='col-lg-4 col-sm-6 col-12 mt-sm-0 mt-5 d-flex justify-content-center align-items-center order-sm-2 order-3'>
+                <div>
+                  <h4 className='h4 fw-bold text-voilet'>2. Build your profile</h4>
+                  <p className='tm lh-base mt-3'>
+                    Find buyers by completing verification, adding a profile image, and gathering healthy feedback. Having a long healthy trade history increases your reputation and helps you gain the trust of potential customers.
+                  </p>
+                </div>
+              </div>
+              <div className=' col-lg-4 col-sm-6 col-12 order-sm-3 order-2'>
+                <div className='vendor-trade-img-div mx-sm-0 mx-auto my-sm-0 my-4'>
+                  <img src={build_profile} alt="" />
+                </div>
+              </div>
+            </div>
+
+            {/* 3 */}
+
+            <div className='row'>
+              <div className='col-lg-4 col-sm-6 col-12'>
+                <div className='vendor-trade-img-div mx-sm-0 mx-auto my-sm-0 my-4'>
+                  <img src={trade_earn_profit} alt="" />
+                </div>
+              </div>
+              <div className='col-lg-4 col-sm-6 col-12 mt-sm-0 mt-5 d-flex justify-content-center align-items-center'>
+                <div>
+                  <h4 className='h4 fw-bold text-voilet'>3. Trade and earn profits</h4>
+                  <p className='tm lh-base mt-3'>
+                    Buy low, sell high. This is the foundation of a great business model and we agree. Learn more about the nuances of trading on Paxful, from our <a className='a-remove' href='void:'>help center.</a>
                   </p>
                 </div>
               </div>

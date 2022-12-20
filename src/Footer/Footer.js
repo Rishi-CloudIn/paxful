@@ -187,7 +187,6 @@ function Footer ()
               <div className='me-md-2 mx-2'>
                 <img src={playStore} alt='img' width={150} />
               </div>
-
             </div>
 
             <div className='social-div-1 d-flex align-items-center mt-md-0 mt-4'>
