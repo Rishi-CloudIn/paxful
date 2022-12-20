@@ -204,7 +204,7 @@ function WalletNavbar ()
                   <ul className='nav-ul d-flex flex-xl-row flex-column justify-content-center  justify-content-xl-start m-0 p-0 align-items-center  ms-0'>
                     {/* old */}
                     <li className='nav-li mx-2'>
-                      <NavLink className='uc text-nowrap' to='/home' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
+                      <NavLink className='uc text-nowrap' to='/create_an_offers' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
                     </li>
                     <li className='nav-li mx-2'>
                       <NavLink className='uc' to='/wallet' onClick={() => setNav( !nav )}>Wallet</NavLink>

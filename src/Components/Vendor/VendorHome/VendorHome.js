@@ -114,11 +114,11 @@ function VendorHome ()
                 <div>
                   <h3 className='h3 fw-bold'>Bring your Bitcoin to Paxful and sell for a profit</h3>
                   <ul>
-                    <li className='fs-6 mt-3'>350+ payment methods</li>
-                    <li className='fs-6 mt-3'>Transaction fees 0-2%</li>
-                    <li className='fs-6 mt-3'>VIP support for high-volume vendors</li>
-                    <li className='fs-6 mt-3'>Overview of transactions and earnings</li>
-                    <li className='fs-6 mt-3'>Affiliate program to onboard new vendors and expand your business</li>
+                    <li className='fs-6 mt-3 vendor-li'>350+ payment methods</li>
+                    <li className='fs-6 mt-3 vendor-li'>Transaction fees 0-2%</li>
+                    <li className='fs-6 mt-3 vendor-li'>VIP support for high-volume vendors</li>
+                    <li className='fs-6 mt-3 vendor-li'>Overview of transactions and earnings</li>
+                    <li className='fs-6 mt-3 vendor-li'>Affiliate program to onboard new vendors and expand your business</li>
 
                   </ul>
                 </div>
@@ -128,7 +128,7 @@ function VendorHome ()
 
           {/* trade */}
 
-          <div> 
+          <div>
             <h1 className='h1 trade-h1 mx-auto fw-800 text-center'>Trade on Paxful and start your very own fintech business</h1>
             <p className='ts text-center mt-4'>Current Bitcoin price:
               USD 16,775.24</p>

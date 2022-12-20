@@ -46,7 +46,7 @@ function Navbar ()
             <div className={!nav ? 'nav-ul-div my-auto' : 'nav-ul-div-hide my-auto'}>
               <ul className='nav-ul d-flex flex-lg-row flex-column justify-content-around m-0 p-0 align-items-center ms-lg-5 ms-0'>
                 <li className='nav-li mx-3'>
-                  <NavLink className='uc text-nowrap' to='/home ' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
+                  <NavLink className='uc text-nowrap' to='/create_an_offers' onClick={() => setNav( !nav )}>Create an Offer</NavLink>
                 </li>
                 <li className='nav-li mx-3'>
                   <NavLink className='uc' to='/wallet' onClick={() => setNav( !nav )}>Wallet</NavLink>

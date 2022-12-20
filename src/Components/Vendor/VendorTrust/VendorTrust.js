@@ -67,8 +67,8 @@ function VendorTrust ()
                   <p className='tm'>Instant Profits on Every Trade:</p>
 
                   <ul className='mt-3'>
-                    <li className='tm'><span className='fw-bold'>50%</span> of your Tier 1 affiliates fees</li>
-                    <li className='tm mt-3'><span className='fw-bold'>10%</span> of your Tier 2 affiliates fees paid by their affiliates</li>
+                    <li className='tm vendor-li'><span className='fw-bold'>50%</span> of your Tier 1 affiliates fees</li>
+                    <li className='tm mt-3 vendor-li'><span className='fw-bold'>10%</span> of your Tier 2 affiliates fees paid by their affiliates</li>
                   </ul>
 
                   <button className='btn btn-blue tm mt-2'>View More <i className='fs-5'><MdArrowForwardIos /></i></button>

@@ -22,7 +22,7 @@
   height: 100%;
 }
 
-li::marker{
+.vendor-li::marker{
   color: var(--sky-blue);
 }
 
