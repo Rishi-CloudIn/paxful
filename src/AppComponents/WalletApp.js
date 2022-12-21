@@ -10,8 +10,10 @@ function WalletApp ()
     <>
       <div>
         <WalletNavbar />
-        <WalletHome />
-        <Footer />
+        <div className='mw-1440'>
+          <WalletHome />
+          <Footer />
+        </div>
       </div>
     </>
   );

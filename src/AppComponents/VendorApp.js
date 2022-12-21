@@ -11,10 +11,12 @@ function VendorApp ()
   return (
     <>
       <WalletNavbar />
-      <VendorHome />
-      <VendorMobile />
-      <VendorTrust />
-      <Footer />
+      <div className='mw-1440'> 
+        <VendorHome />
+        <VendorMobile />
+        <VendorTrust />
+        <Footer />
+      </div>
     </>
   );
 }

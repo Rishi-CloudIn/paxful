@@ -9,8 +9,10 @@ function OfferApp ()
   return (
     <>
       <WalletNavbar />
-      <OfferPage />
-      <Footer />
+      <div className='mw-1440'>
+        <OfferPage />
+        <Footer />
+      </div>
     </>
   );
 }

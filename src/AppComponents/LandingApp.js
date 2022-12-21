@@ -10,11 +10,13 @@ function LandingApp ()
   return (
     <>
       <Navbar />
-      <Home />
-      <Way />
-      <Testimonial />
-      <GetStart />
-      <Footer />
+      <div className='mw-1440'>
+        <Home />
+        <Way />
+        <Testimonial />
+        <GetStart />
+        <Footer />
+      </div>
     </>
   );
 }
