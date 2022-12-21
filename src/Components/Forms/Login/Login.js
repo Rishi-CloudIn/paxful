@@ -63,9 +63,9 @@ function Login ()
                           <div className='me-2'>
                             <i className='fs-5 fw-bold text-info'><FiInfo /></i>
                           </div>
-                          <div className='ts me-2'><span className='uc'>Important!</span>  Please check that you are visiting https://accounts.paxful.com/</div>
+                          <div className='ts me-2'><span className='uc'>Important!</span>  Please check that you are visiting https://accounts.Techswap.com/</div>
                         </div>
-                        <button className='btn btn-border ts d-flex align-items-center mw-sm-50 w-sm-50 w-100 overflow-hidden bg-white mt-sm-0 mt-3'><div className='text-success d-flex align-items-center'><HiLockClosed className='me-1' />https://</div>accouts.paxful.com</button>
+                        <button className='btn btn-border ts d-flex align-items-center mw-sm-50 w-sm-50 w-100 overflow-hidden bg-white mt-sm-0 mt-3'><div className='text-success d-flex align-items-center'><HiLockClosed className='me-1' />https://</div>accouts.Techswap.com</button>
                       </div>
                     </div>
 
