@@ -235,7 +235,7 @@ function WalletHome ()
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className='pp-sm-4 p-2 my-3'>
+                  <div className='p-sm-4 p-2 my-3'>
                     <div className='card loveus-card w-100 h-100 p-2'>
                       <div className='card-body'>
                         <div className='d-flex align-items-center justify-content-start'>
