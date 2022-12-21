@@ -29,7 +29,7 @@ function OfferPage ()
 
 
               <div className='mt-4'>
-                <ul className='d-flex align-items-center flex-sm-row flex-column justify-content-start px-0 mx-0'>
+                <ul className='d-flex align-items-sm-center align-items-start flex-sm-row flex-column justify-content-start px-0 mx-0'>
                   <li className='offer-li active list-remove d-flex  align-items-center me-2'>
                     <div className='li-circle active me-2'>
                       <div className='li-dot active'>
@@ -37,15 +37,15 @@ function OfferPage ()
                     </div>
                     <span className='text-nowrap'>Payment Method</span>
                   </li>
-                  <div className='offer-line me-2'></div>
+                  <div className='offer-line me-sm-2 ms-2 my-sm-0 my-2'></div>
                   <li className='offer-li list-remove d-flex align-items-center me-2'>
                     <div className='li-circle me-2'>
-                      <div className='li-dot '>
+                      <div className='li-dot'>
                       </div>
                     </div>
                     <span className='text-secondary text-nowrap'>Pricing</span>
                   </li>
-                  <div className='offer-line'></div>
+                  <div className='offer-line me-sm-2 ms-2 my-sm-0 my-2'></div>
                   <li className='offer-li list-remove d-flex align-items-center me-2'>
                     <div className='li-circle me-2'>
                       <div className='li-dot '></div>
@@ -129,9 +129,9 @@ function OfferPage ()
 
                 <div className='pb-5 pt-4'>
                   <label htmlFor='search' className='ts mb-2'>Payment Method</label>
-                  <button className='ques-btn d-flex align-items-center justify-content-between px-3  py-2'>
+                  <button className='ques-btn d-flex align-items-center justify-content-between px-sm-3 ps-2 pe-1 py-2'>
                     <div>
-                      <i className='fw-bold text-secondary h5 mt-2 me-2'><BiSearch /></i>
+                      <i className='fw-bold text-secondary h5 mt-2 me-sm-2 me-1'><BiSearch /></i>
                       <input className='ques-input ts' type='text' placeholder='Start typing...' name='search'></input>
                     </div>
 

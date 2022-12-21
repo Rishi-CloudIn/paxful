@@ -70,6 +70,16 @@
   height: 17px;
 }
 
+@media screen and (max-width: 576px){
+  
+.offer-line {
+  width: 1px;
+  height: 30px;
+  background-color: var(--dark-gray);
+}
+
+}
+
 /* ques */
 
 
