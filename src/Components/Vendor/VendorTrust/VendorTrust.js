@@ -29,7 +29,7 @@ function VendorTrust ()
                       </div>
                       <div className='pt-4 pb-2 px-lg-2 px-0'>
                         <h5 className='tl text-voilet fw-bold'>MaineBitcoin</h5>
-                        <p className='ts text-secodary'>Paxful vendor - USA</p>
+                        <p className='ts text-secodary'>Techswap vendor - USA</p>
                         <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
 
                         </p>
@@ -46,7 +46,7 @@ function VendorTrust ()
                       </div>
                       <div className='pt-4 pb-2 px-lg-2 px-0'>
                         <h5 className='tl text-voilet fw-bold'>Kareninsf</h5>
-                        <p className='ts text-secodary'>Paxful vendor - Maine, USA</p>
+                        <p className='ts text-secodary'>Techswap vendor - Maine, USA</p>
                         <p className='ts mb-0 lh-lg mt-3'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque deleniti, eius sapiente rem veniam quia veritatis inventore sequi eveniet consequuntur aperiam reprehenderit itaque, consectetur magnam fugiat quibusdam cupiditate quam dicta?
                         </p>
                       </div>
@@ -61,8 +61,8 @@ function VendorTrust ()
             <div className='earn-more py-5'>
               <div className='row'>
                 <div className='col-md-6 col-12'>
-                  <h5 className='text-voilet fw-bold fs-4'>Earn more with the Paxful Affiliate Program</h5>
-                  <p className='tm mt-4'>Paxful's Affiliate Program was created to help you increase your profits by inviting your friends, family, and extended network to our platform.</p>
+                  <h5 className='text-voilet fw-bold fs-4'>Earn more with the Techswap Affiliate Program</h5>
+                  <p className='tm mt-4'>Techswap's Affiliate Program was created to help you increase your profits by inviting your friends, family, and extended network to our platform.</p>
 
                   <p className='tm'>Instant Profits on Every Trade:</p>
 
@@ -85,7 +85,7 @@ function VendorTrust ()
           <hr />
 
           <p className='ts text-secondary py-4'>
-            * You understand and agree that Paxful does not provide legal, tax, or investment advice, and to the extent you deem necessary, you will consult with qualified professionals in your own jurisdiction before using Paxful’s peer-to-peer platform and becoming a vendor. Please remember that past performance is not indicative of future performance. Paxful does not make any guarantee or other promises as to any financial performance or results that may be obtained from becoming a Paxful vendor and you understand and agree that all decisions to use the Paxful peer-to-peer platform are solely and entirely yours. You understand and agree that we accept no responsibility whatsoever for, and shall in no circumstances be liable to you in connection with, your decisions. You understand and agree that under no circumstances shall the use of Paxful’s peer-to-peer platform and becoming a vendor be deemed to create a relationship that includes the provision or tendering of investment advice.
+            * You understand and agree that Techswap does not provide legal, tax, or investment advice, and to the extent you deem necessary, you will consult with qualified professionals in your own jurisdiction before using Techswap's peer-to-peer platform and becoming a vendor. Please remember that past performance is not indicative of future performance. Techswap does not make any guarantee or other promises as to any financial performance or results that may be obtained from becoming a Techswap vendor and you understand and agree that all decisions to use the Techswap peer-to-peer platform are solely and entirely yours. You understand and agree that we accept no responsibility whatsoever for, and shall in no circumstances be liable to you in connection with, your decisions. You understand and agree that under no circumstances shall the use of Techswap's peer-to-peer platform and becoming a vendor be deemed to create a relationship that includes the provision or tendering of investment advice.
           </p>
 
         </div>

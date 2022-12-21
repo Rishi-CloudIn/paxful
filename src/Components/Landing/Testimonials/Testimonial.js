@@ -34,7 +34,7 @@ function Testimonial ()
       <section className='testi-container container'>
         <div className='testi-content-div'>
           <h1 className='fw-bold title text-center'>Testimonials.</h1>
-          <p className='para text-center w-75 mx-auto my-3'>Wondering what our users think about using Paxful? Let them tell you in their own words:</p>
+          <p className='para text-center w-75 mx-auto my-3'>Wondering what our users think about using Techswap? Let them tell you in their own words:</p>
 
           <div className='testi-div'>
             <div className='testi-card-div'>

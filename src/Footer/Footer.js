@@ -50,7 +50,7 @@ function Footer ()
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Sell Tether</a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Sell Ethereum</a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Become Vendor</a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Wallet</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Wallet</a></li>
                 </ul>
 
               </div>
@@ -67,7 +67,7 @@ function Footer ()
                 </div>
 
                 <ul className={width > 992 || open1 ? 'd-block p-0 footer-ul' : 'd-none'}>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Pay</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Pay</a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Virtual Bitcoin Kiosk
                   </a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>API Documentation</a></li>
@@ -87,11 +87,11 @@ function Footer ()
                 </div>
 
                 <ul className={width > 992 || open2 ? 'd-block p-0 footer-ul' : 'd-none'}>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Rewards Program</a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Trader Program
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Rewards Program</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Trader Program
                   </a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Peer Program</a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Alliance</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Peer Program</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Alliance</a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Community</a></li>
                 </ul>
 
@@ -132,7 +132,7 @@ function Footer ()
                 </div>
 
                 <ul className={width > 992 || open4 ? 'd-block p-0 footer-ul' : 'd-none'}>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Status</a></li>
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Status</a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Bitcoin Calculator
                   </a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Peer-to-Peer Market Prices
@@ -146,7 +146,7 @@ function Footer ()
             <div className='col-lg-2 col-12 '>
               <div className=''>
                 <div className='d-flex justify-content-between align-items-center mb-3'>
-                  <h5 className='h6 fw-bolder mb-0'>About Paxful
+                  <h5 className='h6 fw-bolder mb-0'>About Techswap
                   </h5>
                   <i className={width >= 992 ? 'd-none' : 'fs-4 cursor-pointer'} onClick={() => setOpen5( !open5 )}>
                     {!open5 ? <MdOutlineKeyboardArrowDown className='fs-1 text-dark' /> : <MdOutlineKeyboardArrowUp className='text-secondary fs-1' />}
@@ -159,9 +159,9 @@ function Footer ()
                   </a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Careers
                   </a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Blog
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Blog
                   </a></li>
-                  <li className='  list-remove  '><a href='void:' className='a-remove'>Paxful Reviews
+                  <li className='  list-remove  '><a href='void:' className='a-remove'>Techswap Reviews
                   </a></li>
                   <li className='  list-remove  '><a href='void:' className='a-remove'>Built with Bitcoin
                   </a></li>
@@ -219,7 +219,7 @@ function Footer ()
           </div>
 
           <div className='footer-description text-secondary lh-sm my-4'>
-            “PAXFUL” is a registered trademark of Paxful, Inc. Copyright © 2022 Paxful, Inc. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, PayPal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808
+            “TECHSWAP” is a registered trademark of Techswap, Inc. Copyright © 2022 Techswap, Inc. All Rights Reserved. Techswap Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, PayPal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808
           </div>
         </div>
       </section>

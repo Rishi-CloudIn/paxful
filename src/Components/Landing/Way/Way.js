@@ -212,8 +212,8 @@ function Way ()
         </div>
 
         <div className='way-content-div py-3'>
-          <h1 className='fw-bold title text-center'>Paxful in the media.</h1>
-          <p className='para text-center w-75 mx-auto my-4'>Paxful is a global peer-to-peer platform building a financial system for the 100% — one <a href='void:' className='a-remove text-info'>#Bitcoin</a> at a time. Check out our coverage in renowned publications and learn about our Built With Bitcoin initiative.</p>
+          <h1 className='fw-bold title text-center'>Techswap in the media.</h1>
+          <p className='para text-center w-75 mx-auto my-4'>Techswap is a global peer-to-peer platform building a financial system for the 100% — one <a href='void:' className='a-remove text-info'>#Bitcoin</a> at a time. Check out our coverage in renowned publications and learn about our Built With Bitcoin initiative.</p>
 
           <div className='way-youtube-div'>
             <div className='way-youtube-img'>

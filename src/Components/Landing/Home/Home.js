@@ -86,7 +86,7 @@ function Home ()
         <div className='home-content-div '>
           <div className='row'>
             <div className='col-12'>
-              <h1 className='text-center hero-title fw-bold text-white'>Trade Bitcoin with Paxful.</h1>
+              <h1 className='text-center hero-title fw-bold text-white'>Trade Bitcoin with Techswap.</h1>
               <p className='home-p text-center text-white w-md-50 w-75 mx-auto'>Join the leading peer-to-peer platform to buy and sell Bitcoin using 350+ payment methods with 10 million people just like you.</p>
 
               <div className='mt-5'>

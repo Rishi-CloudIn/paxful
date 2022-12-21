@@ -50,7 +50,7 @@ function WalletHome ()
                     <i className='fs-1 text-light-voilet'><BsFillPlayCircleFill /></i>
                   </div>
                   <div>
-                    <h6>The Paxful Wallet</h6>
+                    <h6>The Techswap Wallet</h6>
                     <p className='fw-300 tm'>is a secure and convenient way to manage your money. Sign up today and find out for yourself why millions of people trust us.</p>
                   </div>
                 </div>
@@ -72,8 +72,8 @@ function WalletHome ()
           {/* trust */}
           <div className='py-5 my-5' >
             <h1 className='h2 fw-bold text-center'>A Bitcoin wallet you can trust</h1>
-            <p className='text-center tm text-secondary mt-5 px-md-0 px-3'>Over 3 million people have used the Paxful wallet to send and receive over 40,000 BTC. Its best-in-class security features make it one of the most trusted wallets in the world — so you’ll never have to choose between security and convenience.</p>
-            <p className='text-center tm text-secondary px-md-2 px-4 mt-4'>The Paxful wallet is functional, safe, and easy to use on all your devices. You can easily manage your funds and top up directly via our peer-to-peer marketplace, and send or receive Bitcoin, in just a few clicks.</p>
+            <p className='text-center tm text-secondary mt-5 px-md-0 px-3'>Over 3 million people have used the Techswap wallet to send and receive over 40,000 BTC. Its best-in-class security features make it one of the most trusted wallets in the world — so you’ll never have to choose between security and convenience.</p>
+            <p className='text-center tm text-secondary px-md-2 px-4 mt-4'>The Techswap wallet is functional, safe, and easy to use on all your devices. You can easily manage your funds and top up directly via our peer-to-peer marketplace, and send or receive Bitcoin, in just a few clicks.</p>
 
             <div className='d-flex flex-md-row flex-column justify-content-around mt-5'>
               <div className='d-flex flex-column'>
@@ -88,7 +88,7 @@ function WalletHome ()
 
               <div className='d-flex flex-column'>
                 <h1 className='h1 fw-bold text-skyblue text-center'>+₹2,000,000</h1>
-                <p className='tm text-secondary text-center'>Paxful wallets</p>
+                <p className='tm text-secondary text-center'>Techswap wallets</p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ function WalletHome ()
           {/* benefits */}
           <div className='benefit-content-div'>
             <h1 className='h1 fw-800 text-center'>Benefits</h1>
-            <h6 className='h6 tm text-center'>Still unsure? We get it. Here are some reasons why you should get the Paxful Wallet.</h6>
+            <h6 className='h6 tm text-center'>Still unsure? We get it. Here are some reasons why you should get the Techswap Wallet.</h6>
 
             <div className='row mt-5'>
               <div className='col-sm-6 col-12 d-flex justify-content-center align-items-center'>
@@ -107,7 +107,7 @@ function WalletHome ()
               <div className='col-sm-6 col-12 d-flex justify-content-start align-items-center'>
                 <div className='benefit-div'>
                   <h2 className='h2 fw-bold'>Security</h2>
-                  <p className='tm text-secondary'>At Paxful, we take the safety of your money seriously. Our strict verification and password requirements make sure that you’re the only person with access to your money.</p>
+                  <p className='tm text-secondary'>At Techswap, we take the safety of your money seriously. Our strict verification and password requirements make sure that you’re the only person with access to your money.</p>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ function WalletHome ()
                         </div>
                         <div>
                           <p className='ts mt-4 text-secondary mb-0'>
-                            "Peer-to-peer is the future. I feel very comfortable using Paxful and the Paxful Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
+                            "Peer-to-peer is the future. I feel very comfortable using Techswap and the Techswap Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
                           </p>
                         </div>
                       </div>
@@ -203,7 +203,7 @@ function WalletHome ()
                         </div>
                         <div>
                           <p className='ts mt-4 text-secondary mb-0'>
-                            "Peer-to-peer is the future. I feel very comfortable using Paxful and the Paxful Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
+                            "Peer-to-peer is the future. I feel very comfortable using Techswap and the Techswap Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
                           </p>
                         </div>
                       </div>
@@ -226,7 +226,7 @@ function WalletHome ()
                         </div>
                         <div>
                           <p className='ts mt-4 text-secondary mb-0'>
-                            "Peer-to-peer is the future. I feel very comfortable using Paxful and the Paxful Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
+                            "Peer-to-peer is the future. I feel very comfortable using Techswap and the Techswap Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
                           </p>
                         </div>
                       </div>
@@ -249,7 +249,7 @@ function WalletHome ()
                         </div>
                         <div>
                           <p className='ts mt-4 text-secondary mb-0'>
-                            "Peer-to-peer is the future. I feel very comfortable using Paxful and the Paxful Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
+                            "Peer-to-peer is the future. I feel very comfortable using Techswap and the Techswap Wallet because I know I am in control. Transferring money is the most important thing for me and I believe this will provide many wonderful opportunities for people around the world."
                           </p>
                         </div>
                       </div>
@@ -346,7 +346,7 @@ function WalletHome ()
             <div className='wallet-card-div pt-5 pb-3'>
               <div className='card wallet-card border-0 py-4'>
                 <div className='card-body'>
-                  <h1 className='fw-bold text-center w-xl-50 w-100 mx-xl-auto'>Get your free Paxful Bitcoin wallet now!</h1>
+                  <h1 className='fw-bold text-center w-xl-50 w-100 mx-xl-auto'>Get your free Techswap Bitcoin wallet now!</h1>
                   <p className='tm text-center py-4'>Transact instantly, and buy Bitcoin hassle-free today!</p>
                   <div className='w-100 d-flex justify-content-center'>
                     <button className='btn btn-blue tm'>Sign up for your free wallet</button>

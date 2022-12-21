@@ -14,7 +14,7 @@ function VendorMobile ()
           </div>
           <div className='mobile-screen-content'>
             <h5 className='h5 fw-bold mobile-screen-h5'>Stay informed, anytime, anywhere</h5>
-            <p className='tm text-lg-white mobile-screen-p'>Don't worry about missing out on potential trades, or messages from customers. Paxful is easy-to-use and works on all your devices. Our iOS and Android apps, will ensure you are always in the loop and ready for action.</p>
+            <p className='tm text-lg-white mobile-screen-p'>Don't worry about missing out on potential trades, or messages from customers. Techswap is easy-to-use and works on all your devices. Our iOS and Android apps, will ensure you are always in the loop and ready for action.</p>
 
             <div className=''>
               <div className='social-div-1 d-flex flex-sm-row flex-column align-items-center justify-content-center justify-content-lg-start mt-lg-0 mt-3 '>

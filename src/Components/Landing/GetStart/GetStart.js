@@ -65,8 +65,8 @@ function GetStart ()
                     <div className='financial-card-img d-flex justify-content-center'>
                       <img src={bank} alt="" width={40} />
                     </div>
-                    <h6 className='tl text-dark text-center mt-2 mb-3'>Free Paxful Wallet</h6>
-                    <p className='ts text-center px-2'> Get a free<span className='text-primary cursor-pointer'> Paxful Wallet </span>when you sign up to receive, send, and store your Bitcoin safely.</p>
+                    <h6 className='tl text-dark text-center mt-2 mb-3'>Free Techswap Wallet</h6>
+                    <p className='ts text-center px-2'> Get a free<span className='text-primary cursor-pointer'> Techswap Wallet </span>when you sign up to receive, send, and store your Bitcoin safely.</p>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ function GetStart ()
                       <img src={bank} alt="" width={40} />
                     </div>
                     <h6 className='tl text-dark text-center mt-2 mb-3'>Invite friends</h6>
-                    <p className='ts text-center px-2'>Get your friends and family to<span className='text-primary cursor-pointer'>sign up</span>  for Paxful.</p>
+                    <p className='ts text-center px-2'>Get your friends and family to<span className='text-primary cursor-pointer'>sign up</span>  for Techswap.</p>
                   </div>
                 </div>
               </div>

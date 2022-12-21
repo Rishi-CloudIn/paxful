@@ -23,9 +23,9 @@ function VendorHome ()
           {/* home */}
           <div className='row'>
             <div className='col-md-6 col-12 d-flex align-items-start flex-column justify-content-center'>
-              <h6 className='h6 fw-bold text-secondary'>Become a Bitcoin vendor on Paxful</h6>
-              <h2 className='h2 fw-bold lh-base mt-4'>Generate income by selling your Bitcoin on Paxful using our 350+ payment methods</h2>
-              <p className='tm mt-4'>With Paxful, kickstart your very own business in a matter of minutes. Create offers with your Bitcoin, set profit margins, and build out a unique customer experience to increase your profits. <a href='void:' className='a-remove text-skyblue'>Sign up</a> as a vendor today and <a href='void:' className='a-remove text-skyblue'>create your first offer.*</a></p>
+              <h6 className='h6 fw-bold text-secondary'>Become a Bitcoin vendor on Techswap</h6>
+              <h2 className='h2 fw-bold lh-base mt-4'>Generate income by selling your Bitcoin on Techswap using our 350+ payment methods</h2>
+              <p className='tm mt-4'>With Techswap, kickstart your very own business in a matter of minutes. Create offers with your Bitcoin, set profit margins, and build out a unique customer experience to increase your profits. <a href='void:' className='a-remove text-skyblue'>Sign up</a> as a vendor today and <a href='void:' className='a-remove text-skyblue'>create your first offer.*</a></p>
               <button className='btn btn-blue tm py-1 d-flex align-items-center'>Sign me up! <i className='mb-1 fs-3 ms-3 my-auto'><IoIosArrowForward /></i></button>
             </div>
             <div className='col-md-6 col-12 mt-md-0 mt-4 d-flex align-items-center flex-column justify-content-center'>
@@ -112,7 +112,7 @@ function VendorHome ()
               </div>
               <div className='col-lg-4 col-12 d-flex align-items-center justify-content-center'>
                 <div>
-                  <h3 className='h3 fw-bold'>Bring your Bitcoin to Paxful and sell for a profit</h3>
+                  <h3 className='h3 fw-bold'>Bring your Bitcoin to Techswap and sell for a profit</h3>
                   <ul>
                     <li className='fs-6 mt-3 vendor-li'>350+ payment methods</li>
                     <li className='fs-6 mt-3 vendor-li'>Transaction fees 0-2%</li>
@@ -129,7 +129,7 @@ function VendorHome ()
           {/* trade */}
 
           <div>
-            <h1 className='h1 trade-h1 mx-auto fw-800 text-center'>Trade on Paxful and start your very own fintech business</h1>
+            <h1 className='h1 trade-h1 mx-auto fw-800 text-center'>Trade on Techswap and start your very own fintech business</h1>
             <p className='ts text-center mt-4'>Current Bitcoin price:
               USD 16,775.24</p>
 
@@ -186,7 +186,7 @@ function VendorHome ()
                 <div>
                   <h4 className='h4 fw-bold text-voilet'>3. Trade and earn profits</h4>
                   <p className='tm lh-base mt-3'>
-                    Buy low, sell high. This is the foundation of a great business model and we agree. Learn more about the nuances of trading on Paxful, from our <a className='a-remove' href='void:'>help center.</a>
+                    Buy low, sell high. This is the foundation of a great business model and we agree. Learn more about the nuances of trading on Techswap, from our <a className='a-remove' href='void:'>help center.</a>
                   </p>
                 </div>
               </div>
