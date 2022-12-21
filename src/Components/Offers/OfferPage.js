@@ -27,7 +27,6 @@ function OfferPage ()
             <div className='col-lg-8 col-12 px-4'>
               <h2 className='h2 fw-bold mt-4'>Create an Offer to Sell Tether</h2>
 
-
               <div className='mt-4'>
                 <ul className='d-flex align-items-sm-center align-items-start flex-sm-row flex-column justify-content-start px-0 mx-0'>
                   <li className='offer-li active list-remove d-flex  align-items-center me-2'>
@@ -174,14 +173,20 @@ function OfferPage ()
                   </div>
                 </div>
               </div>
+
             </div>
-            <div className='col-lg-4 col-12 px-4'>
-              <div className='mt-4'>
-                <h3 className='h3 fw-bold text-start'>About This Step</h3>
-                <p className='ts py-3'>Start creating your offer by selecting the cryptocurrency you want to trade, whether or not you want to buy or sell, and the payment method you want to use.</p>
-                <button className='btn btn-blue ts text-nowarp w-100 py-3'>Sign up</button>
-                <p className='ts text-center mt-2'>To proceed, please create an account</p>
+
+            <div className='col-lg-4 col-12 position-relative'>
+              <div className='offer-separator-line'></div>
+              <div className='px-3'>
+                <div className='mt-4'>
+                  <h3 className='h3 fw-bold text-start'>About This Step</h3>
+                  <p className='ts py-3'>Start creating your offer by selecting the cryptocurrency you want to trade, whether or not you want to buy or sell, and the payment method you want to use.</p>
+                  <button className='btn btn-blue ts text-nowarp w-100 py-3'>Sign up</button>
+                  <p className='ts text-center mt-2'>To proceed, please create an account</p>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>

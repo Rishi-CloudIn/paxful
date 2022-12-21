@@ -70,7 +70,31 @@
   height: 17px;
 }
 
+.offer-separator-line{
+  width: 1px;
+  height: 95%;
+  background-color: var(--dark-gray);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+@media screen and (max-width: 992px){
+  .offer-separator-line{
+  width: 90%;
+  height: 1px;
+  background-color: var(--dark-gray);
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-0%);
+
+}
+}
+
 @media screen and (max-width: 576px){
+
   
 .offer-line {
   width: 1px;
