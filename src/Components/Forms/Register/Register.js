@@ -61,14 +61,14 @@ function Register ()
   const [ type, setType ] = useState( 'phone' );
   return (
     <>
-      <section className='login-section container-fluid'>
+      <section className='login-section container-fluid mw-1440'>
         <div className='login-content-div'>
           <div className='row'>
             <div className='col-lg-5 col-12 vh-100  login-scroll '>
               <div className='login-div'>
                 <div className='card pt-2 px-3  border-0'>
                   <div className='card-body'>
-                    <img src={techswap} alt="logo" width={200} className='mt-4' />
+                    <img src={techswap} alt="logo" width={200} className='mt-4' onClick={() => navigate( '/home' )} />
                     <h4 className='h4 fw-bold text-voilet mt-4'>Create Your Account</h4>
 
                     {/* underline */}
@@ -248,7 +248,7 @@ function Register ()
                     <div className='login-line'></div>
 
                     <div className='ts'>
-                      Already on Paxful? <span className='text-primary'>Login</span>
+                      Already on Paxful? <span className='text-primary' onClick={() => navigate( '/' )}>Login</span>
                     </div>
 
                     <div className='ts my-4'>
