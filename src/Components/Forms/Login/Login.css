@@ -5,9 +5,7 @@
 .form-input-div{
   border: 1px solid var(--dark-gray);
   border-radius: 5px;
-
 }
-
 
 .form-control {
   background-color: transparent !important;
@@ -22,19 +20,32 @@
 }
 
 .login-img-div{
-  width: 550px;
-  max-width:550;
-  height: 560px;
+  width: 100%;
+  height: auto;
+  max-width:550px;
   object-fit: contain;
 
 }
 
 .login-bg{
   background-color: #F4FAFD;
+  width: 100vw;
+  height: 100vh;
 }
 
 .login-img-div img{
   width: 100%;
-  max-width: 100%;
   height: 100%;
+}
+
+/* scroll */
+
+.login-scroll{
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+.login-scroll::-webkit-scrollbar {
+  display: none;
 }

@@ -1,0 +1,43 @@
+.register-btn-active{
+  border-bottom: 1px solid #00A5EF !important;
+  box-shadow: none !important;
+  border-radius: 0px !important ;
+  color: var(--sky-blue) !important;
+  z-index: 2;
+}
+
+.register-btn{
+  border-bottom: 0px solid var(--dark-gray) !important;
+  box-shadow: none !important;
+  border-radius: 0px !important ;
+  color: var(--dark-gray) !important;
+  z-index: 2;
+
+}
+
+.register-line {
+  border-bottom: 1px solid var(--dark-gray) !important;
+  box-shadow: none !important;
+  border-radius: 0px !important ;
+  color: var(--dark-gray) !important;
+}
+
+.register-flag-div{
+  width: 30px ;
+  height: 25px;
+}
+
+.register-flag-btn{
+  width: 70px;
+  height: 35px;
+  border-radius: 5px !important;
+}
+
+.register-flag-div img{
+  width: 30px ;
+  height: 25px;
+}
+
+input{
+  outline: none;
+}

@@ -133,18 +133,18 @@ function Navbar ()
                   <div className='d-flex flex-column'>
                     <button
                       className='btn text-white mb-3 ts shadow-none'
-                      onClick={() => navigate( '/login' )}
+                      onClick={() => navigate( '/' )}
                     >Login
                     </button>
-                    <button className='btn nav-btn'>Register</button>
+                    <button className='btn nav-btn' onClick={() => navigate( '/register' )}>Register</button>
                   </div>
                 </div>
               </ul>
             </div>
             <div className={!nav ? 'nav-ul-div-1 my-auto' : 'nav-ul-div-hide-1 my-auto'}>
               <ul className='nav-ul d-flex flex-lg-row flex-column justify-content-around m-0 p-0 align-items-center'>
-                <button className='btn me-2 shadow-none' onClick={() => navigate( '/login' )}>Login</button>
-                <button className='btn nav-btn'>Register</button>
+                <button className='btn me-2 shadow-none' onClick={() => navigate( '/' )}>Login</button>
+                <button className='btn nav-btn' onClick={() => navigate( '/register' )}>Register</button>
               </ul>
             </div>
 

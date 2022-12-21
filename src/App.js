@@ -5,6 +5,7 @@ import OfferApp from './AppComponents/OfferApp';
 import VendorApp from './AppComponents/VendorApp';
 import WalletApp from './AppComponents/WalletApp';
 import Login from './Components/Forms/Login/Login';
+import Register from './Components/Forms/Register/Register';
 
 function App ()
 {
@@ -13,9 +14,10 @@ function App ()
       <Routes>
         <Route path='/home' element={<LandingApp />} />
         <Route path='/wallet' element={<WalletApp />} />
-        <Route path='/' element={<Login />} />        
+        <Route path='/' element={<Login />} />
+        <Route path='/register' element={<Register />} />
         <Route path='/vendors' element={<VendorApp />} />
-        <Route path='/create_an_offers' element={<OfferApp />} />        
+        <Route path='/create_an_offers' element={<OfferApp />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>

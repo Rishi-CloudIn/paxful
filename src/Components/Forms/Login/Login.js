@@ -50,7 +50,7 @@ function Login ()
       <section className='login-section container-fluid'>
         <div className='login-content-div'>
           <div className='row'>
-            <div className='col-lg-5 col-12 vh-100'>
+            <div className='col-lg-5 col-12 vh-100  login-scroll '>
               <div className='login-div'>
                 <div className='card pt-2 px-3  border-0'>
                   <div className='card-body'>
